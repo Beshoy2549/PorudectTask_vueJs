@@ -42,10 +42,8 @@
             </div>
           </div>
         </div>
-        <div v-else>
-          <div class="alert alert-danger custom" role="alert">
-           No Products Has Been Added
-          </div>
+        <div class="alert alert-danger custom" role="alert" v-else>
+          No Products Has Been Added
         </div>
       </div>
     </div>
@@ -74,7 +72,6 @@ img {
   height: 250px;
 }
 .custom {
-  
   padding: 20px;
 }
 </style>
